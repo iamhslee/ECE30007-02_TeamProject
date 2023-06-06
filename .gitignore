@@ -1,3 +1,6 @@
+# START TEMPLATE IGNORES
+# Pre-defined .gitignore template
+
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
@@ -11,6 +14,21 @@ ipython_config.py
 
 # Remove previous ipynb_checkpoints
 #   git rm -r .ipynb_checkpoints/
+
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
 
 ### macOS ###
 # General
@@ -258,3 +276,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# END TEMPLATE IGNORES
+
+# START PROJECT SPECIFIC IGNORES
+Dataset/
